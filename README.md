@@ -1,0 +1,1 @@
+Simple API for dice roll game

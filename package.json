@@ -1,0 +1,24 @@
+{
+  "name": "dice-roll-api",
+  "version": "1.0.0",
+  "description": "API for dice roll game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Stephans",
+  "license": "ISC",
+  "dependencies": {
+    "@cragi9/dice-roll": "^1.0.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/method-override": "0.0.31",
+    "@types/node": "^8.0.58",
+    "typescript": "^2.6.2"
+  }
+}
