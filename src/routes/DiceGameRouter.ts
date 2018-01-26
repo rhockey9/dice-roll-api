@@ -1,6 +1,5 @@
 import {Router, Request, Response, NextFunction} from 'express';
 import {DiceRoll, DiceType} from '@cragi9/dice-roll/dist';
-//import {DiceRoll, DiceType} from '../../../dice-roll/dist';
 import {RollResult} from '../models/RollResult';
 
 export class DiceGameRouter {
@@ -15,7 +14,7 @@ export class DiceGameRouter {
   }
 
   /**
-   * GET all Heroes.
+   * GET roll the die.
    */
   public rollTheDice(req: Request, res: Response, next: NextFunction) {
     let guess = req.params.guess;

@@ -10,6 +10,7 @@
   "author": "Craig Stephans",
   "license": "ISC",
   "dependencies": {
+    "@cragi9/card-deck": "^1.0.0",
     "@cragi9/dice-roll": "^1.0.4",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
